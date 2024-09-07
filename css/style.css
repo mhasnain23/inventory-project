@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 50px;
+    width: 900px;
+    height: 65px;
+    margin: 10px auto;
+    border-radius: 50px;
+    background-color: rgb(61, 32, 189);
+}
+
+
+.navbar_rounded {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 55px;
+    border-radius: 30px;
+}
+
+.nav-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Initially hidden off-screen */
+    width: 350px;
+    height: 100%;
+    border-radius: 7px;
+    transition: all ease 0.1s;
+    background-color: rgb(61, 32, 189);
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px 40px;
+    margin: 55px 0 0 0;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.input_container {
+    position: relative;
+    display: flex;
+    top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 40vh;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.input {
+    border-radius: 30px;
+    box-shadow: -5px 2px 50px 10px rgb(61, 32, 189);
+    padding: 15px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(61, 32, 189);
+}
+
+.table_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px 0px rgb(61, 32, 189);
+}
+
+.table tbody {
+    position: relative;
+    text-align: center;
+}
+
+.table tbody tr {
+    line-height: 4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.close_btn span{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.btn:disabled {
+    color: #ccc;
+    background-color: rgb(23, 14, 65);
+    cursor: not-allowed;
+}
+
+
+.footer_container{
+    position: fixed;    
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(61, 32, 189);
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'poppins' sans-serif;
+    color: rgb(223, 223, 223);
+}
+
+.btn_triangle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+    gap: 30px;
+}
+
+
+.delete_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(61, 32, 189);
+}
+
+
+.edit_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(61, 32, 189);
+}

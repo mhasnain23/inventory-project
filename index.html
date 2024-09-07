@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best inventory management system</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar_rounded">
+            <div class="nav_logo">
+                <h1><span>Product Inventory</span></h1>
+            </div>
+
+            <div class="nav-menu-icon">
+                <img src="/images//system-solid-24-view-1-hover-view-5.svg" alt="nav-menu-icon-animated">
+            </div>
+        </div>
+        <div class="nav-menu">
+            <div class="close_btn">
+                <span>  
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main id="main">
+
+        <div class="input_container">
+            <input class="input" id="name" type="text" placeholder="Enter your product name">
+            <input class="input" id="quantity" type="text" placeholder="Enter your quantity">
+            <input class="input" id="price" type="text" placeholder="Enter your price">
+
+            <button class="btn" id="btn" type="button" disabled>Add</button>
+        </div>
+
+
+        <div class="table_container">
+            <table id="dataTable" class="table">
+                <thead>
+                    <tr style="font-size: 17px; font-weight: bold;">
+                        <th>Title</th>
+                        <th>Quality</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be inserted here dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="footer_container">
+            <footer class="footer">
+                <span>Created by love ❤ with muhammad hasnain</span>
+            </footer>
+        </div>
+
+    </main>
+    <!-- all the third party resourses -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/src/main.js"></script>
+
+</body>
+
+</html>
